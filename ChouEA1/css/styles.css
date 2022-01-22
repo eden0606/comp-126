@@ -144,3 +144,7 @@ a:hover {
 .title-container {
     margin-top: 10rem;
 }
+
+.no-margin {
+    margin: 0;
+}
