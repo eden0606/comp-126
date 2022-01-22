@@ -1,0 +1,146 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('/img/mountain.jpg');
+    background-size: cover;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    padding: 2rem 150px 2rem 150px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #befbfb;
+}
+
+a:visited {
+    color: #befbfb;
+}
+
+a:hover {
+    color: #0bb2b1;
+}
+
+.title {
+    font-size: 100px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.intro-container {
+    padding: 5rem 0 25rem 0;
+}
+
+.top5-container {
+    text-align: center;
+}
+
+.top5-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.park-container {
+    margin: 8rem 0 8rem;
+}
+
+.img-size {
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.park-subtitle {
+    font-weight: 400;
+}
+
+.references-container {
+    margin: 10rem 0 0 0;
+    border-top: white 5px dashed;
+}
+
+.references-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.references-subtitle {
+    text-align: center;
+    font-weight: 400;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.what-is-title {
+    text-align: center;
+    font-size: 80px;
+}
+
+.what-is-container {
+    padding: 5rem;
+    text-align: center;
+}
+
+.what-is-content {
+    font-size: 25px;
+    text-align: center;
+}
+
+.what-is-img {
+    border-radius: 30px;
+    margin: 5rem 5rem 0 5rem;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.more-info-title {
+    padding-top: 3rem;
+}
+
+.more-info-container {
+    margin: 0 5rem 5rem 5rem;
+}
+
+.arrow {
+    filter: invert(1);
+    height: 100px;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20rem;
+}
+
+.title-container {
+    margin-top: 10rem;
+}
