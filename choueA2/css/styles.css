@@ -60,6 +60,7 @@ body {
     z-index: 1;
     position: absolute;
     justify-content: end;
+    top: 5rem;
 }
 
 .pano-overlay-item {
