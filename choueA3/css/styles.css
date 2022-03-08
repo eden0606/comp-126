@@ -1,0 +1,145 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    color: #211e48;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.header-container {
+    background-color: #0a4249;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.email-svg {
+    width: 6rem;
+    padding-right: 2rem;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 0 8% 0;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item {
+    color: white;
+    background-color: #ff627d;
+    padding: 14px 8% 14px 8%;
+    border-radius: 5px;
+    transition: background-color 400ms linear; 
+
+}
+
+.nav-item:hover {
+    background-color: #b0dacc;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+fieldset {
+    border: none
+}
+
+legend {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #ffc0cb;
+
+}
+
+.form-container {
+    background-color: #ffe4e9;
+    padding: 3%;
+    box-shadow: inset 1px 1px 3px #ffc0cb;
+    border: 1px solid #ffc0cb;
+    margin: 5% 5% 8% 5%;
+}
+
+.gradient {
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    border: none;
+    background-color: #ff627d;
+    background-image: linear-gradient(to right, transparent, #b0dacc);
+    transition: background-color 0.75s;
+}
+
+.gradient:hover {
+    background-color: #b0dacc;}
+
+input:focus-visible {
+    outline: 3px solid #ff627d;
+}
+
+.footer-container {
+    background-color: #0a4249;
+    height: 12rem;
+}
+
+.footer-content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 4.25rem;
+}
+
+@media screen and (min-width: 992px) {
+    .main-container {
+        display: flex;
+    }
+
+    .nav-container {
+        flex-basis: 20%;
+        display: block;
+        margin: 10% 0 8% 5%;
+    }
+
+    .form-container {
+        flex-basis: 70%;
+    }
+
+    .nav-item {
+        display: block;
+        text-align: center;
+        margin-bottom: 1.25rem;
+    }
+}
