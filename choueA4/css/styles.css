@@ -1,0 +1,28 @@
+.pad {
+    padding: 2% 6%;
+}
+
+.img-size {
+    height: 100%;
+    width: 100%;
+}
+
+.title-pad {
+    padding: 0 0.75rem;
+}
+
+.stick {
+    position: fixed;
+    left: 0;
+    bottom:  0;
+    width: 100%;
+
+}
+
+.main-pad {
+    margin-bottom: 1.5rem;
+}
+
+.foot-pad {
+    padding-left: 7%;
+}
